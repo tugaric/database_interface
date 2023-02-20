@@ -10,7 +10,6 @@ class myController:
         self.view.setup(self)
         self.refresh_button_pressed()
         self.view.run()
-        
 
     def btn_new_article_pressed(self):
         tmp = self.view.new_art_frm
